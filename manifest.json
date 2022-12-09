@@ -1,0 +1,14 @@
+{
+    "short_name": "Notification App",
+    "name": "Notification App",
+    "description": "An application for demo notification",
+    "start_url": "https://athultony97.github.io/pwa-lab05/",
+    "scope": "/pwa-lab05/",
+    "id": "com.athultony97.pwa-lab05",
+    "theme_color": "rgb(40, 109, 221)",
+    "background_color": "whitesmoke",
+    "orientation": "portrait",
+    "display": "standalone"
+  }
+
+  
