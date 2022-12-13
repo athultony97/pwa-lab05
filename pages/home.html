@@ -1,0 +1,26 @@
+<ons-page>
+  
+  <div class="nav-btn">
+    <ons-button onclick="profileClick()">Profile</ons-button>
+    <b>Lab 05</b>
+    <ons-button onclick="taskClick()">Tasks</ons-button>
+  </div>
+  <p style="text-align:right; margin-top: 10px;">
+    <ons-search-input
+      placeholder="Search"
+      onchange="ons.notification.alert('Searched for: ' + this.value)"
+    ></ons-search-input>
+  </p>
+  <div style="text-align: center; margin-top: 30px;">
+    <p>
+      <ons-input id="username" modifier="underbar" placeholder="Username" float></ons-input>
+    </p>
+    <p>
+      <ons-input id="password" modifier="underbar" type="password" placeholder="Password" float></ons-input>
+    </p>
+    <p style="margin-top: 30px;">
+      <ons-button onclick="ClickMe()">Click Me</ons-button>
+    </p>
+  </div>
+
+</ons-page> 
